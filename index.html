@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fashion website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <!-- Left-->
+        <div class="navbar-left">
+          <img src="images/1.png" alt="Brand Logo" class="brand-logo" />
+        </div>
+
+        <!-- Navigation Link -->
+        <div class="navbar-center">
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Right -->
+        <div class="navbar-right">
+          <button class="shop-now">Shop Now</button>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <!-- Full Width Banner Image -->
+      <img
+        src="images/hero.avif"
+        alt="Fall Collection Banner"
+        class="hero-image"
+      />
+    </section>
+
+    <div class="hero-text">
+      <h1>Introducing Our Fall Collection</h1>
+      <button class="shop-now-hero">Shop Now</button>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/i3.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/i4.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 1</h2>
+          <h1 class="product-title">Title 1</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img2.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img1.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 2</h2>
+          <h1 class="product-title">Title 2</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img1.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img2.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 3</h2>
+          <h1 class="product-title">Title 3</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img3.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img4.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 4</h2>
+          <h1 class="product-title">Title 4</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img4.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img3.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 5</h2>
+          <h1 class="product-title">Title 5</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img5.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img6.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 6</h2>
+          <h1 class="product-title">Title 6</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/img6.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/img5.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 7</h2>
+          <h1 class="product-title">Title 7</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-container">
+          <img
+            class="product-image primary"
+            src="images/i4.jpg"
+            alt="product"
+          />
+          <img
+            class="product-image hover-img"
+            src="images/i3.jpg"
+            alt="product-hover"
+          />
+        </div>
+        <div class="product-info">
+          <h2 class="brand-name">Fashion 8</h2>
+          <h1 class="product-title">Title 8</h1>
+          <h1 class="product-price">₹499</h1>
+          <div class="button-container">
+            <button class="cart-button" onclick="addToCart()">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- main -->
+      <div class="container2">
+        <a class="logo">Fashion</a>
+        <p class="footer-text">
+          © 2024 Fashion —
+          <a
+            href="/"
+            class="footer-link"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            @ Fashion
+          </a>
+        </p>
+        <!-- media icon -->
+        <span class="social-icons">
+          <!-- facebook -->
+          <a href="#" class="social-icon">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="icon"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              />
+            </svg>
+          </a>
+          <!-- twitter -->
+          <a href="#" class="social-icon">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="icon"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              />
+            </svg>
+          </a>
+          <!-- instagram -->
+          <a href="#" class="social-icon">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="icon"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              />
+            </svg>
+          </a>
+          <!-- linkedIn -->
+          <a href="#" class="social-icon">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="icon"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              />
+              <circle cx="4" cy="4" r="2" stroke="none" />
+            </svg>
+          </a>
+        </span>
+        <!-- newsletter subscription form -->
+        <form class="newsletter-form" action="#" method="post">
+          <label for="email" class="newsletter-label"
+            >Subscribe to our Newsletter</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="newsletter-input"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
